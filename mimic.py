@@ -64,7 +64,8 @@ def print_mimic(mimic_dict, start_word):
         - Randomly select a new word from the next-list
         - Repeat this process 200 times
     """
-    print(mimic_dict)
+    for word in mimic_dict:
+        print(word+":",mimic_dict[word])
     pass
 
 
